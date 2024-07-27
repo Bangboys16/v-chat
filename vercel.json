@@ -1,16 +1,10 @@
 {
     "version": 2,
     "builds": [
-        {
-            "src": "vchat/wsgi.py",
-            "use": "@vercel/python",
-            "config": { "maxLambdaSize": "50mb"}
-        }
+        { "src": "vigichat/wsgi.py", "use": "@vercel/python" }
     ],
     "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "vchat/wsgi.py"
-        }
+            {"src": "/(.*)", "dest": "vigichat/wsgi.py" },
+            {"src": "/static/(.*)", "dest": "/static/"}
     ]
 }
