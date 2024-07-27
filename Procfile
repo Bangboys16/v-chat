@@ -1,1 +1,1 @@
-web: gunicorn vchat.wsgi --log-file -
+web: gunicorn vigichat.wsgi --log-file -
