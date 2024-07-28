@@ -13,7 +13,8 @@ Django 3.x or later
 
 Installation
 Clone the repository:
-git clone https://github.com/yourusername/vigi-chat.git
+git clone https://github.com/Bangboys16/vigi-chat.git
+
 cd vigi-chat
 
 Create and activate a virtual environment:
@@ -36,17 +37,25 @@ Open your browser and navigate to http://127.0.0.1:8000/ to access Vigi Chat.
 Project Structure
 vchat/: Main Django app for Vigi Chat.
 views.py: Contains the views for the lobby and chat rooms.
+
 templates/: Contains the HTML templates for the lobby and room.
+
 lobby.html: Template for the lobby view.
+
 room.html: Template for the chat room view.
+
 Usage
 Lobby: When you visit the main page, you'll see the lobby where you can join existing chat rooms or create a new one.
+
 Room: After joining a room, you'll be redirected to the chat interface where you can start chatting in real-time.
+
 Contributing
 Fork the repository.
 Create a new branch: git checkout -b feature-name.
+
 Make your changes and commit them: git commit -m 'Add some feature'.
 Push to the branch: git push origin feature-name.
+
 Submit a pull request.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
